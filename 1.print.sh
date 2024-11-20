@@ -1,11 +1,11 @@
 # we have only 6 colors in shell
 
-Red  -31
-Green -32
-yellow -33
-blue -34
-magenta -35
-cyan -36
+#Red  -31
+#Green -32
+#yellow -33
+#blue -34
+#magenta -35
+#cyan -36
 
 #synatax: -e  "\e[CodeofColormMessageinthecode\e[0m"
 
