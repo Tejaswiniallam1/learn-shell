@@ -8,7 +8,7 @@ echo  exit status of function is $?
 
 
 echo Hello1
-exit 2oo
+exit 200
 echo Hello2
 
 #Exit the script using exit command to command line
