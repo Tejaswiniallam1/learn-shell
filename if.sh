@@ -18,7 +18,7 @@ else
     commands
 fi
 
-#Expressions
+##Expressions
 1.Strings Checks
 [ string (operator) string]
 
@@ -32,7 +32,7 @@ operators
 
 3. File Checks
 
-Example:
+Example:##
 input =$1
 if[ "$input" = devops]; then
   echo Welcome to devops Training
