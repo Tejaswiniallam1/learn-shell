@@ -16,6 +16,6 @@ sample1
 #sample1 100 200
 
 sample_sum(){
-  echo "addition of $1 and $2 is (($1+$2))"
+  echo "addition of $1 and $2 is $(($1+$2))"
 }
 sample 100 200
