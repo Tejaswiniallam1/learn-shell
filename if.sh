@@ -25,15 +25,16 @@ fi
 operators
 = ,==,-> Check if both the strings are same
 != -> Check if both strings are not same.
+-z -> Check if variable is empty
 
-2.Number Checks.
+[a=x] [a!=x], [&x ==abc ],[-z "$var"]
 
 
 3. File Checks
 
 Example:
 input =$1
-if[ $input = devops]; then
+if[ "$input" = devops]; then
   echo Welcome to devops Training
 fi
 
