@@ -1,13 +1,14 @@
 sample2() {
   echo Hello1
-  return
+  return 100
   echo Hello2
 }
 sample2
+echo  exit status of function is $?
 
 
 echo Hello1
-exit
+exit 2oo
 echo Hello2
 
 #Exit the script using exit command to command line
@@ -21,4 +22,4 @@ That information is called as status ,Also called as Exit Status
 #Zero considers as success message
 # Non-Zero considers as failure message
 
-# We can check this information using a variable which is ? , Meaning $? can show the status of exit command
+# We can check this information using a variable which is ? ,Meaning $? can show the exit status of return command.
