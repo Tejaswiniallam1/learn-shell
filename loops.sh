@@ -27,7 +27,7 @@ for course in Devops AWS Azure GCP Testing; do
 done
 #Continue Example:
 for val in {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}; do
-  if [[ ${val} -eq 9 ]];then
+  if [[ ${val} -eq 9 ]]; then
     continue
   fi
   echo "Printing  ${val}"
