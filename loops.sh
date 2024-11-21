@@ -15,10 +15,16 @@ while [ "$i" -gt 0 ]; do
   break
   done
 
-
-
 #For Loop
 #for somevar in values(values1 value2); do
 #commands
 #done
 #if you want to control the loop based on values then for has to be used.
+
+#Print list of course
+for course in Devops AWS Azure GCP Testing; do
+  echo welcome to course $course
+done
+#Break
+
+#continue
