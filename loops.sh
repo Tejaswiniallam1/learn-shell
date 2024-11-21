@@ -25,6 +25,7 @@ while [ "$i" -gt 0 ]; do
 for course in Devops AWS Azure GCP Testing; do
   echo welcome to course $course
 done
-#Break
+#Break -When we want to stop a loop and come and come out of the loop
 
-#continue
+#continue-Skipping the remaining commands in loop(command1;command2;continue;command3;command4)
+#starts the next iteration.
