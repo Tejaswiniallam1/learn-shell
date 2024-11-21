@@ -19,20 +19,24 @@ else
 fi
 
 ##Expressions
-1.Strings Checks
-[ string (operator) string]
+# 1.Strings Checks
+# [ string (operator) string]
 
-operators
-= ,==,-> Check if both the strings are same
-!= -> Check if both strings are not same.
--z -> Check if variable is empty
+# operators
+#  = ,==,-> Check if both the strings are same
+#  != -> Check if both strings are not same.
+# -z -> Check if variable is empty
 
-[a=x] [a!=x], [&x ==abc ],[-z "$var"]
+#[a=x] [a!=x], [&x ==abc ],[-z "$var"]
+
+##Note:If any where in the expressions if you see variables ,Always ensure to give double quotes.
 
 
-3. File Checks
+#  2. File Checks
+if [ -z "$1"]; then
+  echo Input is empty
+fi
 
-Example:##
 input =$1
 if[ "$input" = devops]; then
   echo Welcome to devops Training
