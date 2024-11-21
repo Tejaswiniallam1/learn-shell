@@ -16,7 +16,7 @@ echo Hello2
 
 #Both commands behavioir is same as it is exiting
 #while exiting both the commsnd can hold some information and it can show that information
-That information is called as status ,Also called as Exit Status
+#That information is called as status ,Also called as Exit Status
 # This information is a number 0-255
 
 #Zero considers as success message
