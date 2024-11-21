@@ -22,8 +22,9 @@ while [ "$i" -gt 0 ]; do
 #if you want to control the loop based on values then for has to be used.
 
 #Print list of course
-for course in Devops;AWS;continue;Azure;GCP;Testing; do
+for course in Devops AWS Azure GCP Testing; do
   echo welcome to course $course
+  continue
 done
 #Break -When we want to stop a loop and come and come out of the loop
 
