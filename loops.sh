@@ -38,7 +38,7 @@ done
 
 #continue-Skipping the remaining commands in loop(command1;command2;continue;command3;command4)
 #starts the next iteration.
-
+echo "break command"
 i=10
 while [ "$i" -gt 0 ]; do
   echo Hello World
@@ -46,7 +46,7 @@ while [ "$i" -gt 0 ]; do
   break
   echo Hello Universe
 done
-
+echo "Continue Command"
 i=10
 while [ "$i" -gt 0 ]; do
   echo Hello World
