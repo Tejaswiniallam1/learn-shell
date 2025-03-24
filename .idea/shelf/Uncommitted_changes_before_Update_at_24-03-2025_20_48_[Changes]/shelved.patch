@@ -1,0 +1,54 @@
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision a2fe814d2dacc2ce1687e95c16ef33ec98a344b2)
++++ /dev/null	(revision a2fe814d2dacc2ce1687e95c16ef33ec98a344b2)
+@@ -1,16 +0,0 @@
+-# learn-shell
+-
+-we are going to learn bash shell
+- 
+-here are the topics of the shell
+-
+-1. comments
+-2. Print
+-3. Variables
+-4. Functions
+-5. Conditions
+-6. Loops
+-7. Quotes
+-8. Exit Status
+-9. Inputs
+-10. SED Editor
+Index: 01.example.sh
+===================================================================
+diff --git a/01.example.sh b/01.example.sh
+deleted file mode 100644
+--- a/01.example.sh	(revision a2fe814d2dacc2ce1687e95c16ef33ec98a344b2)
++++ /dev/null	(revision a2fe814d2dacc2ce1687e95c16ef33ec98a344b2)
+@@ -1,3 +0,0 @@
+-ls
+-pwd
+-find .
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision a2fe814d2dacc2ce1687e95c16ef33ec98a344b2)
++++ b/.idea/vcs.xml	(date 1742829423668)
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/learn-shell" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
